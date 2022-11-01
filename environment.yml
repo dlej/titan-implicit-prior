@@ -1,0 +1,20 @@
+name: titan
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+  - nvidia
+dependencies:
+  - nvidia::cudatoolkit=11.6
+  - python==3.9
+  - pytorch::pytorch
+  - pip
+  - pip:
+    - git+https://github.com/alisiahkoohi/BregmanLearning
+    - matplotlib
+    - numpy
+    - scikit-image
+    - tqdm
+    - gitpython
+    - h5py
+    - opencv-python

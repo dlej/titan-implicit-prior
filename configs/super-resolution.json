@@ -1,0 +1,9 @@
+{
+    "cuda": 1,
+    "niters": 5000,
+    "seed": 12,
+    "learning_rate": 0.001,
+    "spars_fac": 0.01,
+    "model_type": "titan",
+    "optim_type": "AdaBreg"
+}
